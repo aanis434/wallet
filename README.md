@@ -1,5 +1,6 @@
 # wallet
-Wallet manager is a daily expense tracking system developed with [React App, Django, Django Rest Framework].
+Wallet manager is a daily expense tracking system.<br />
+**It is a single page application.[SPA]
 
 This project was developed with:
 
