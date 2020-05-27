@@ -1,6 +1,6 @@
-# wallet
-Wallet manager is a daily expense tracking system.<br />
-**It is a single page application.[SPA]
+# Wallet
+Wallet manager is a daily expense tracking Application.<br />
+*** It is a single page application.[SPA]
 
 This project was developed with:
 
