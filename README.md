@@ -1,7 +1,7 @@
 ## This project was developed with:
 
     Django
-    Django Rest Framwork
+    Django Rest Framework
     React App
 
 ### Available Modules:
