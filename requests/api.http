@@ -1,0 +1,64 @@
+POST http://127.0.0.1:8000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "emy",
+    "email": "emy@example.com",
+    "password": "1234"
+}
+
+
+# Send Request
+POST http://127.0.0.1:8000/api/auth/logout
+Authorization: Token 58cb1c002fe02a0d16ac4972fcad5b1c4e0d05c5211f16c4167c24bb1a97b7aa
+
+# Send Request - get data with new token
+GET http://127.0.0.1:8000/api/auth/user
+Authorization: Token fdf64ad00734aa135641f844cc220a7b4d3906bbc8a295a1befd68ed59cc315f
+
+# Send Request - login with correct data
+POST http://127.0.0.1:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "john",
+    "password": "1234"
+}
+
+# Send Request - get data with new token
+GET http://127.0.0.1:8000/api/auth/user
+Authorization: Token fdf64ad00734aa135641f844cc220a7b4d3906bbc8a295a1befd68ed59cc315f
+
+
+
+
+
+
+
+# Send Request - login with incorrect data
+POST http://127.0.0.1:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "Mary",
+    "password": "1234"
+}
+
+
+
+# Send Request
+POST http://127.0.0.1:8000/api/auth/logout
+Authorization: Token 58cb1c002fe02a0d16ac4972fcad5b1c4e0d05c5211f16c4167c24bb1a97b7aa
+
+
+
+# Send Request
+POST http://127.0.0.1:8000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "John",
+    "email": "john@example.com",
+    "password": "1234"
+}
+
