@@ -1,10 +1,10 @@
-##### This project was developed with:
+## This project was developed with:
 
     Django
     Django Rest Framwork
     React App
 
-## Available Modules:
+### Available Modules:
 
 In the project directory, you can find:
 
@@ -24,4 +24,4 @@ In the project directory, you can find:
 
 #### About
 
-Wallet manager is a daily expense tracking application. It is a single page application.
+Wallet manager is a single page [SPA] daily expense tracking application.
