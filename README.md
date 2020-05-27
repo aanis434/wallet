@@ -1,8 +1,7 @@
 # Wallet
-Wallet manager is a daily expense tracking Application.<br />
-*** It is a single page application.[SPA]
+Wallet manager is a daily expense tracking Application. It is a single page application [SPA].
 
-This project was developed with:
+## This project was developed with:
 
     Django
     Django Rest Framwork
