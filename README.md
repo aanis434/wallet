@@ -1,4 +1,4 @@
-This project was developed with:
+##### This project was developed with:
 
     Django
     Django Rest Framwork
@@ -6,13 +6,12 @@ This project was developed with:
 
 ## Available Modules:
 
-In the project, you can find:
+In the project directory, you can find:
 
     Auth Module
     Expense Module
     Creditor Module
     Report Module
-
 
 ### Available Features:
 
@@ -20,9 +19,9 @@ In the project, you can find:
     Authentication system using [Django Knox]
     Pagination
     Searching
-    Report Print 
+    Report Print
     Dynamic Dashboard and many more.
 
+#### About
 
-<br />
-# Wallet manager is a daily expense tracking system build with [React App, Django, Django Rest Framework].<br /> It is a single page application.
+Wallet manager is a daily expense tracking application. It is a single page application.
