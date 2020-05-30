@@ -38,8 +38,7 @@ SECRET_KEY = 'qmx9b+6fc67w^9ejtwaw7od_1(f==(6hg8mi#=z8s-3wg$2-)v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = ['*']
-# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 
 APPEND_SLASH = False
