@@ -15,7 +15,7 @@ In the project directory, you can find:
 
 ### Available Features:
 
-    SPA - it is complete single page application
+    SPA - It is completely a single page application.
     Authentication system using [Django Knox]
     Pagination
     Searching
