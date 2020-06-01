@@ -1,27 +1,27 @@
-# Wallet
-Wallet manager is a daily expense tracking Application. It is a single page application [SPA].
-
-#### This project was developed with:
+### This project was developed with:
 
     Django
-    Django Rest Framwork
+    Django Rest Framework
     React App
 
-## Available Modules:
+### Available Modules:
 
-In the project, you can find:
+In the project directory, you can find:
 
     Auth Module
     Expense Module
     Creditor Module
     Report Module
 
-
 ### Available Features:
 
-    SPA - it is complete single page application
+    SPA - It is completely a single page application.
     Authentication system using [Django Knox]
     Pagination
     Searching
-    Report Print 
+    Report Print
     Dynamic Dashboard and many more.
+
+#### About
+
+Wallet manager is a single page [SPA] daily expense tracking application.
