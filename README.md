@@ -1,4 +1,4 @@
-### This project was developed with:
+## This project was developed with:
 
     Django
     Django Rest Framework
