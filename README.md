@@ -1,13 +1,13 @@
-## This project was developed with:
+### Following stacks are user for developing of Wallet:
 
     Python => 3.8
-	Django => 3.0.6
+    Django => 3.0.6
     Django Rest Framework
     React App
-	NodeJs
-	Bootstrap
-	Git(version control system)
-	MySQL
+    NodeJs
+    Bootstrap
+    Git(version control system)
+    MySQL
 
 ### Available Modules:
 
