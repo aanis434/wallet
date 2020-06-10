@@ -24,7 +24,7 @@ def expense_summary(request):
     total_expenses = Expense.objects.filter(user=user).exclude(
         delete_status=True).aggregate(Sum('total'))
 
-    total_year = Expense.objects.values('expense_date__year').annotate(
+    total_year = Expense.objects.values('expense_date__year').filter(user=user).annotate(
         Count('expense_date__year')).order_by()
 
     # print(total_year)
