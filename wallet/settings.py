@@ -22,10 +22,10 @@ environ.Env.read_env()
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-TEMPLATE_DIR = os.path.join(BASE_DIR, 'frontend/build')
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'frontend/app/build')
 # STATIC_DIR = os.path.join(BASE_DIR, 'static') # Django Static Dir
 STATIC_DIR = os.path.join(
-    BASE_DIR, 'frontend/build/static')  # React Static Dir
+    BASE_DIR, 'frontend/app/build/static')  # React Static Dir
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 
@@ -59,7 +59,8 @@ INSTALLED_APPS = [
     'knox',  # added for TokenBased Authentication
     'expenses',
     'corsheaders',
-    'dashboard'
+    'dashboard',
+    'frontend'
 ]
 
 REST_FRAMEWORK = {

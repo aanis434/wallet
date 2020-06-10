@@ -15,27 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include, resolve
-from django.views.generic import TemplateView
 from django.http import request
 
 from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('', TemplateView.as_view(template_name='index.html')),
-    path('sign-in', TemplateView.as_view(template_name='index.html')),
-    path('sign-up', TemplateView.as_view(template_name='index.html')),
-    path('home', TemplateView.as_view(template_name='index.html')),
-    path('expense-list', TemplateView.as_view(template_name='index.html')),
-    path('expense/edit/<int:id>', TemplateView.as_view(template_name='index.html')),
-    path('expense-create', TemplateView.as_view(template_name='index.html')),
-    path('client-list', TemplateView.as_view(template_name='index.html')),
-    path('item-list', TemplateView.as_view(template_name='index.html')),
-    path('reports', TemplateView.as_view(template_name='index.html')),
-    # path('*', TemplateView.as_view(template_name='index.html')),
-
-    path('admin', admin.site.urls),
+    path('', include('frontend.urls')),  # added
     path('api/auth/', include('accounts.api.urls')),  # added
-    path('expense/', include('expenses.urls')),
-    path('dashboard/', include('dashboard.urls')),
+    path('expense/', include('expenses.urls')),  # added
+    path('dashboard/', include('dashboard.urls')),  # added
+    path('admin', admin.site.urls),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
