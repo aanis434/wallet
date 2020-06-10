@@ -46,7 +46,13 @@ class Expense extends Component {
     const offset = selectedPage * this.state.perPage;
     // console.log("offset", offset);
     let url = `http://127.0.0.1:8000/expense/list/?page=${selectedPage}`;
-    fetch(url)
+    fetch(url, {
+      method: "GET",
+      headers: {
+        "Content-type": "application/json",
+        Authorization: `Token ${this.state.token}`,
+      },
+    })
       .then((response) => response.json())
       .then((data) =>
         this.setState({
