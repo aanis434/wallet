@@ -2,6 +2,6 @@
 
 /.vscode
 wallet/.env
-wallet/Pipfile
+Pipfile
 media/expenses
 
