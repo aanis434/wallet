@@ -1,4 +1,4 @@
-### Following stacks are user for developing of Wallet:
+#### Following stacks are used for developing the Wallet:
 
     Python => 3.8
     Django => 3.0.6
@@ -9,7 +9,7 @@
     Git(version control system)
     MySQL
 
-### Available Modules:
+#### Available Modules:
 
 In the project directory, you can find:
 
@@ -18,7 +18,7 @@ In the project directory, you can find:
     Creditor Module
     Report Module
 
-### Available Features:
+#### Available Features:
 
     SPA - It is completely a single page application.
     Authentication system using [Django Knox]
@@ -29,4 +29,4 @@ In the project directory, you can find:
 
 #### About
 
-Wallet manager is a single page [SPA] daily expense tracking application.
+- Wallet manager is a single page [SPA] daily expense tracking application.
