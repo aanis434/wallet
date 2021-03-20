@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 mysqlclient = "==1.4.6"
-djangorestframework = "==3.11.0"
+djangorestframework = "==3.11.2"
 django-filter = "==2.2.0"
 django-cors-headers = "==3.2.1"
 django-rest-knox = "==4.1.0"
